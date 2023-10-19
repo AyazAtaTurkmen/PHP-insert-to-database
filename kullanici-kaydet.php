@@ -13,3 +13,5 @@ $sql 	= "INSERT INTO ogrenciler (adi, soyadi, yasi, telefonNumarasi) VALUES (:ad
 $query 	= $db->prepare($sql)->execute($data);
 
 ?>
+
+//you can change these examples. also you should connect your code to database.
